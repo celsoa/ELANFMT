@@ -1,0 +1,164 @@
+# image files
+**.bmp
+**.eps
+**.gif
+**.jpeg
+**.JPEG
+**.jpg
+**.JPG
+**.PDF
+**.pdf
+**.pdf_old
+**.pdf_OLD
+**.png
+**.ppm
+**.pnm
+**.ps
+**.tif
+**.tiff
+**.webp
+
+# media
+**.flac
+**.mp3
+**.mp4
+**.webm
+**.mkv
+
+# grid data sets
+**.grd
+**.grid
+**.grad
+**.svn
+**.tar
+
+# SEIS data sac/mseed/
+**.z
+**.n
+**.e
+**.r
+**.t
+**.sac
+**.SAC
+**.?HZ
+**.?HN
+**.?HE
+*.grn*.?
+**.mseed
+
+# latex related
+**.aux
+**.bbl
+**.blg
+**.cls
+**.cfg
+**.dtx
+**.dvi
+**.ins
+**.ldf
+**.loa
+**.lof
+**.log
+**.lot
+**.nav
+**.out
+**.sgf
+**.snm
+**.toc
+**.vrb
+**.fdb_latexmk
+**.fls
+**.bak
+**.spl
+
+
+# misc
+**.*~
+**~
+**.zip
+**.bz2
+**.tgz
+**.gz
+**a.out
+**.swp
+**.tar
+**.epub
+**.rtf
+**.o
+**.a
+
+# CAP related
+cap
+log_diff
+search_range
+**.bin
+**capout_error.txt
+**OUTPUT_DIR
+**WEIGHT_CLEAN.dat
+**weight_capin.dat
+**weight_capout.dat
+**weight_run.dat
+**inp_cmd
+**junk.p
+**junk.s
+**fk 
+**hk 
+**syn 
+**st_fk
+
+# GMT related
+**gmt.history
+**gmt.conf
+**.gmtcommands4
+**.gmtdefaults4
+**.cpt
+**cpt_misfit
+**cpt_misfit_c
+**cpt_probs
+**cpt_probs_c
+
+# misc directories
+bin/
+deprecated/
+
+# apple gunk
+**.DS_Store
+
+# vim leftovers
+**.swo
+**vim/dot-vim/autoload/
+**vim/dot-vim/bundle/
+**.~
+**~
+
+# python
+**.pyc
+**.ipynb_checkpoints 
+
+# matlab
+**.mat
+
+# docs etc
+**.doc
+**.docx
+**.xls
+**.xlsx
+**.ppt
+**.pptx
+
+# intelliJ things
+**.idea
+
+# zshell things
+**zshell/oh-my-zsh/
+
+# hdf5 files
+**.h5
+
+# FastWaveED_GPU3D 
+**.exp
+**.lib
+**.dat
+**/*synseis*
+**.txt
+
