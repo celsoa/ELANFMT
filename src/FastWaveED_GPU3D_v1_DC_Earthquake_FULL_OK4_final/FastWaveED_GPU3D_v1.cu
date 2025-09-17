@@ -110,6 +110,9 @@ float milliseconds = 0;
 //double toc(){ return cpu_sec()-timer_start; }
 //void   tim(const char *what, double n){ double s=toc();if(me==0){ printf("%s: %8.3f seconds",what,s);if(n>0)printf(", %8.3f GB/s", n/s); printf("\n"); } }
 //////////// ========== Save & Read Data functions ========== //////////
+//-----------------------------------------------------------------------------
+// THE FOLLOWING IS WINDOWS RELATED. SHOULD BE DISABLED WHEN COMPILING ON LINUX
+//-----------------------------------------------------------------------------
 /// Params to be saved for evol plot ///
 #include <stdarg.h> /* needed for va_*         */
 int vscprintf(const char* format, va_list ap)
@@ -144,6 +147,9 @@ int asprintf(char** strp, const char* format, ...)
     va_end(ap);
     return retval;
 }
+//-----------------------------------------------------------------------------
+// END WINDOWS CODE. SHOULD BE DISABLED WHEN COMPILING ON LINUX
+//-----------------------------------------------------------------------------
 #define NB_PARAMS  1
 void save_info(){
     FILE* fid;
